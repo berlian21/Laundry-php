@@ -1,0 +1,111 @@
+body {
+	background-image: url(img/pc1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: black;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+form {
+	color: white;
+	background-color: rgba(20, 20, 20, 0.8);
+	margin: 20px;
+	margin-left: 300px;
+	margin-right: 350px;
+	border: 2px solid black;
+	padding: 10px;
+	text-align: right;
+	align-items: center;
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	grid-gap: 21px;
+}
+
+.selectacc{
+	text-align: left;
+	color: white;
+	background-color: transparent;
+	border: none;
+	border-bottom-right-radius: 25px;
+	border-right: 2px solid black;
+	border-bottom:2px solid black;
+	width: 250px;
+	grid-column: 2/3;
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin: 10px;	
+}
+
+form [type=text], [type=date], [type=number] {
+	color: white;
+	padding-left: 10px;
+	background-color: transparent;
+	border: none;
+	border-bottom:2px solid black;
+	margin: 10px;
+	padding-bottom: 10px;
+	grid-column: 2/3;
+	text-align: left;
+	width: 250px;
+}
+
+form [type=submit]{
+	background-color: rgba(120, 120, 120, 0.9);
+	border: 2px solid black;
+	grid-column: 2/3;
+	width: 200px;
+	height: 50px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+form [type=submit]:hover{
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	
+}
+
+.textrata{
+	grid-column: 1/2;
+	margin: 10px;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+table {
+	color: white;
+	background-color: rgba(120, 40, 70, 0.6);
+	width: 100%;
+	font-family: cursive;
+	padding: 10px;
+}
+
+td, th {
+	background-color: rgba(120, 20, 120, 0.6);
+	border: 2px solid black;
+	border-right: none;
+	border-left: none;
+	padding: 10px;
+}
+
+td:hover {
+	background-color: rgba(255, 255, 255, 0.6);
+	border: 2px solid black;
+	border-right: none;
+	border-left: none;
+	padding: 10px;
+	color: black;
+}

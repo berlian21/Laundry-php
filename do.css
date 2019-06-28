@@ -1,0 +1,80 @@
+body {
+	background-image: url(img/pc1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: black;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+form {
+	color: white;
+	background-color: rgba(20, 20, 20, 0.8);
+	margin: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+form [type=date] {
+	height: 30px;
+	width: 150px;
+	margin: 5px;
+	text-align: center;
+	padding: 3px;
+}
+
+form [type=text]{
+	height: 20px;
+	width: 180px;
+	margin: 5px;
+	text-align: center;
+	padding: 3px;
+	margin-left: 0px;
+}
+
+form [type=submit]{
+	background-color: rgba(120, 120, 120, 0.9);
+	border: 2px solid black;
+	width: 200px;
+	height: 50px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+form [type=submit]:hover{
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;	
+}
+
+.menari {
+	color: black;
+	background-color: rgb(63, 173, 168);
+	width: 100%;
+	font-family: cursive;
+	padding: 2px;
+}
+
+.cari{
+	text-align: right;
+	margin: 2px;
+	margin-top: 10px;
+	border-top: 2px solid white;
+}
+
+.findme{
+	height: 28px;
+	background: #b71c1c;
+	border: 0px;
+}
