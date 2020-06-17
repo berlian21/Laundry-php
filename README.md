@@ -1,5 +1,2 @@
 # Laundry-php
-Aplikasi laundry sederhana menggunakan PHP Native
-
-
-Mohon maaf apabila masih berantakan
+Aplikasi laundry sederhana menggunakan PHP Native 5.xx
